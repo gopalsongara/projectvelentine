@@ -5,7 +5,7 @@ import Controls from "./Controls.jsx";
 
 import p1 from "../assets/img/p1.jpeg";
 import p2 from "../assets/img/p2.jpg";
-import p3 from "../assets/img/p3.webp";
+import p3 from "../assets/img/p5.jpeg";
 import p4 from "../assets/img/p4.webp";
 
 /* ============================
@@ -16,7 +16,7 @@ const PAGE_CONTENT = [
   { type: "photo", caption: "Memory 1", image: p2 },
   { type: "photo", caption: "Memory 2", image: p1 },
   { type: "photo", caption: "Memory 3", image: p4 },
-  { type: "photo", caption: "if you want to add more photo tell", image: p3 },
+  { type: "photo", caption: "if you want to add more photo tell", image: p5 },
   {
     type: "final",
     title: "We can make a friend? 🌸🙂",
@@ -252,3 +252,4 @@ const Book = () => {
 };
 
 export default Book;
+

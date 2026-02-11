@@ -16,7 +16,7 @@ const PAGE_CONTENT = [
   { type: "photo", caption: "Memory", image: p2 },
   { type: "photo", caption: "Looking Nice", image: p1 },
   { type: "photo", caption: "Memory 3", image: p4 },
-  { type: "photo", caption: "Nice Smile",image: p5 },
+  { type: "photo", caption: "Nice Eyes",image: p5 },
   {
     type: "final",
     title: "We can make a friend? 🌸🙂",
@@ -252,6 +252,7 @@ const Book = () => {
 };
 
 export default Book;
+
 
 
 

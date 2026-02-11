@@ -20,7 +20,7 @@ const PAGE_CONTENT = [
   {
     type: "final",
     title: "We can make a friend? 🌸🙂",
-    sub: "Give me your answer on instagram. Because some technical issues we cant not Implement this feature",
+    sub: "Give me your answer on instagram. Please",
   },
 ];
 
@@ -252,5 +252,6 @@ const Book = () => {
 };
 
 export default Book;
+
 
 

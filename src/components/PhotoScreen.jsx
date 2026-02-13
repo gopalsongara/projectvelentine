@@ -1,5 +1,5 @@
 import React from "react";
-import firstimg from "../assets/img/firstimg.jpeg";
+
 
 
 // First photo screen – anime night-sky + existing tap-to-continue flow
@@ -22,16 +22,12 @@ const PhotoScreen = ({ onNext }) => {
 
       <div className="photo-inner">
         <div className="photo-frame">
-          <img
-            src={firstimg}
-            alt="First memory"
-            className="photo-img"
-          />
+        <h1> Add your photo </h1>
 
         </div>
 
         <p className="headline headline--subtle">
-          Ye wali photo Sabsee achi
+        
         </p>
         <p className="hint-text">Tap anywhere to continue</p>
       </div>
@@ -40,4 +36,5 @@ const PhotoScreen = ({ onNext }) => {
 };
 
 export default PhotoScreen;
+
 

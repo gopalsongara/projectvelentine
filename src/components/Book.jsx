@@ -13,10 +13,10 @@ import p4 from "../assets/img/p4.webp";
 ============================ */
 
 const PAGE_CONTENT = [
-  { type: "photo", caption: "Memory", image: p2 },
-  { type: "photo", caption: "Looking Nice", image: p1 },
-  { type: "photo", caption: "Memory 3", image: p4 },
-  { type: "photo", caption: "Nice Eyes",image: p5 },
+  { type: "photo", caption: "Memory", image: null },
+  { type: "photo", caption: "Looking Nice", image: null },
+  { type: "photo", caption: "Memory 3", image: null },
+  { type: "photo", caption: "Nice Eyes",image: null },
   {
     type: "final",
     title: "We can make a friend? 🌸🙂",
@@ -252,6 +252,7 @@ const Book = () => {
 };
 
 export default Book;
+
 
 
 
